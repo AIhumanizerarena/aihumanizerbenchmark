@@ -1,0 +1,42 @@
+{
+  "cycle": "September 2026",
+  "scope": "representative slice of 6 of 150 source texts",
+  "samples": [
+    {
+      "sample_id": "S01",
+      "category": "Academic",
+      "title": "Urban heat islands and bus-stop siting",
+      "text": "This paper argues that municipal transit agencies should treat summer heat as a routing constraint rather than a comfort afterthought. In several mid-sized U.S. cities, the hottest census tracts also have the fewest shaded bus stops. Riders in those tracts wait longer on average and are more likely to be older or medically vulnerable. The analysis uses land-surface temperature data, stop inventories, and on-time performance logs from 2019 to 2024. Findings suggest that moving a small number of stops under existing tree canopy would reduce peak-wait heat exposure more cheaply than installing new shelters on every block."
+    },
+    {
+      "sample_id": "S02",
+      "category": "Professional memo",
+      "title": "Q3 vendor consolidation memo",
+      "text": "I recommend we consolidate our three regional print vendors into a single national contract before November. Overlap in fulfillment is now costing us duplicate freight and inconsistent color matching on the autumn catalog. A single vendor will not be cheaper in the first quarter, but it will cut approval cycles from nine days to four and give design one set of paper specs. Legal has flagged early-termination fees on the Midwest contract; those fees are still lower than the reprint costs we absorbed in June. Please review the attached comparison and confirm by Friday whether procurement should open negotiations."
+    },
+    {
+      "sample_id": "S03",
+      "category": "Blog / SEO",
+      "title": "Why sourdough starter fails in apartments",
+      "text": "Most apartment starters fail for boring reasons, not because the recipe is cursed. Kitchens sit cooler than food blogs assume, and chlorinated tap water can slow the wild yeast you are trying to wake up. If your jar smells like nail polish remover, you probably starved it. Feed on a consistent schedule, keep it somewhere that actually stays near 75°F, and stop sealing the lid so tightly that gas has nowhere to go. A sluggish starter is usually underfed or cold, not doomed."
+    },
+    {
+      "sample_id": "S04",
+      "category": "Technical brief",
+      "title": "Rate-limit retries in the billing worker",
+      "text": "The billing worker currently retries failed card captures on a fixed 30-second interval. Under issuer timeouts this stampedes the processor and trips our own rate limit. We should switch to exponential backoff with jitter, cap retries at five, and move poison messages to a dead-letter queue after the fifth failure. Idempotency keys already exist on the charge object, so duplicate captures are not the main risk. The main risk is thread pileup during an evening sales spike. A staged rollout on 10% of traffic is enough to measure queue depth before a full cutover."
+    },
+    {
+      "sample_id": "S05",
+      "category": "Opinion / narrative",
+      "title": "The last independent video store",
+      "text": "The last independent video store in town does not survive on nostalgia alone. It survives because the owner still writes a card for every shelf and will argue with you about a 1978 giallo you only half remember. Streaming is easier, obviously. It is also worse at accident. Nobody wanders into an algorithm and leaves with a scratched Korean thriller because the clerk thought you looked tired. That kind of recommendation is inefficient on purpose. I go on Tuesdays, when the new-to-used bin turns over and the coffee is only decent."
+    },
+    {
+      "sample_id": "S06",
+      "category": "Academic short answer",
+      "title": "Limitation of cross-sectional diet studies",
+      "text": "A key limitation of cross-sectional diet studies is that they capture intake and health status at the same moment, so they cannot establish whether the eating pattern preceded the outcome. Recall bias is also common because participants reconstruct a typical week rather than recording meals as they happen. Researchers often respond with food-frequency questionnaires and covariate adjustment, but residual confounding from income, work hours, and food access usually remains. Longitudinal designs with repeated dietary measures are better suited to questions of cause."
+    }
+  ]
+}

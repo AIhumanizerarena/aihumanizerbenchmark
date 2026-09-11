@@ -1,0 +1,106 @@
+{
+  "cycle": "September 2026",
+  "calculation": "reported overall = round(raw composite - penalty total, 2)",
+  "penalties": [
+    {
+      "tool": "GPTHuman",
+      "raw_composite": 91.375,
+      "penalty_total": 3.1,
+      "reported_overall": 88.28,
+      "components": {
+        "split_detector_dampener": 1.5,
+        "length_verbosity": 0.8,
+        "meaning_drift": 0,
+        "residual_ai_pattern": 0.8,
+        "rerun_variance": 0
+      }
+    },
+    {
+      "tool": "StealthGPT",
+      "raw_composite": 83.415,
+      "penalty_total": 2.28,
+      "reported_overall": 81.14,
+      "components": {
+        "split_detector_dampener": 1.5,
+        "length_verbosity": 0,
+        "meaning_drift": 0.48,
+        "residual_ai_pattern": 0,
+        "rerun_variance": 0.3
+      }
+    },
+    {
+      "tool": "Humanize AI Pro",
+      "raw_composite": 81.675,
+      "penalty_total": 2.16,
+      "reported_overall": 79.52,
+      "components": {
+        "split_detector_dampener": 1.5,
+        "length_verbosity": 0,
+        "meaning_drift": 0,
+        "residual_ai_pattern": 0.66,
+        "rerun_variance": 0
+      }
+    },
+    {
+      "tool": "HIX AI",
+      "raw_composite": 79.825,
+      "penalty_total": 3,
+      "reported_overall": 76.83,
+      "components": {
+        "split_detector_dampener": 1.5,
+        "length_verbosity": 1.1,
+        "meaning_drift": 0,
+        "residual_ai_pattern": 0.4,
+        "rerun_variance": 0
+      }
+    },
+    {
+      "tool": "BypassGPT",
+      "raw_composite": 76.755,
+      "penalty_total": 3.35,
+      "reported_overall": 73.41,
+      "components": {
+        "split_detector_dampener": 1.5,
+        "length_verbosity": 0.55,
+        "meaning_drift": 0.7,
+        "residual_ai_pattern": 0.6,
+        "rerun_variance": 0
+      }
+    },
+    {
+      "tool": "Netus AI",
+      "raw_composite": 74.2,
+      "penalty_total": 4.02,
+      "reported_overall": 70.18,
+      "components": {
+        "split_detector_dampener": 1.5,
+        "length_verbosity": 0.7,
+        "meaning_drift": 0.82,
+        "residual_ai_pattern": 0.5,
+        "rerun_variance": 0.5
+      }
+    },
+    {
+      "tool": "NoteGPT AI Humanizer",
+      "raw_composite": 54.395,
+      "penalty_total": 3.13,
+      "reported_overall": 51.27,
+      "components": {
+        "split_detector_dampener": 0,
+        "length_verbosity": 0,
+        "meaning_drift": 0,
+        "residual_ai_pattern": 2.8,
+        "rerun_variance": 0.33
+      }
+    }
+  ],
+  "rules": {
+    "Split-detector dampener": "−1.50 applied when at least one of the five detectors still returned ≥20% AI on 10% or more of that tool’s samples, even if the blended bypass rate was high. Not applied to NoteGPT because failure was unanimous, not split — that cost is already inside the 18.4 bypass score, plus the residual-AI flag.",
+    "Length / verbosity flag": "Up to −1.50 when median output length exceeded the source by more than 12% on the academic or report subsets (inflated sentences that can look human to detectors but hurt tightness).",
+    "Meaning-nick / drift flag": "Up to −1.00 when embedding similarity dropped below 0.86 on a sample or a human rater marked a factual/intent change. StealthGPT, BypassGPT, and Netus picked up most of these.",
+    "Residual AI-pattern flag": "Up to −2.80 for leftover template cadence: tricolon stacking, empty intensifiers, identical paragraph openings across reruns. NoteGPT kept source LLM cadence almost intact, which is why this flag is large there.",
+    "Rerun variance flag": "Up to −0.50 when three reruns of the same input produced bypass swings larger than 15 points on the 40-sample stability subset.",
+    "What it is not": "Reported Overall is not min-max normalized across the field, not divided by 100, and not computed with an older weight set. Weights stayed 40/25/20/15 for the whole September cycle. The only subtraction after the weighted sum is the penalty column.",
+    "Rounding": "Raw composite kept to 3 decimals internally. Penalties kept to 2 decimals. Reported Overall = round(raw − penalties, 2). Tiny 0.005-level remainders were absorbed into the penalty total so the published table matches exactly."
+  }
+}

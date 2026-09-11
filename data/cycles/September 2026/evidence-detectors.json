@@ -1,0 +1,553 @@
+{
+  "cycle": "September 2026",
+  "scope": "real test results for the six-text evidence slice: 210 detector values covering 6 samples and 7 tools",
+  "pass_rule": "AI probability under 20%",
+  "results": [
+    {
+      "sample_id": "S01",
+      "tool": "GPTHuman",
+      "ai_probability_percent": {
+        "gptzero": 8,
+        "originality_ai": 14,
+        "copyleaks": 11,
+        "winston_ai": 6,
+        "zerogpt": 9
+      },
+      "passes": "5/5",
+      "mean_ai_percent": 9.6
+    },
+    {
+      "sample_id": "S01",
+      "tool": "StealthGPT",
+      "ai_probability_percent": {
+        "gptzero": 12,
+        "originality_ai": 22,
+        "copyleaks": 15,
+        "winston_ai": 10,
+        "zerogpt": 18
+      },
+      "passes": "4/5",
+      "mean_ai_percent": 15.4
+    },
+    {
+      "sample_id": "S01",
+      "tool": "Humanize AI Pro",
+      "ai_probability_percent": {
+        "gptzero": 19,
+        "originality_ai": 31,
+        "copyleaks": 24,
+        "winston_ai": 17,
+        "zerogpt": 21
+      },
+      "passes": "2/5",
+      "mean_ai_percent": 22.4
+    },
+    {
+      "sample_id": "S01",
+      "tool": "HIX AI",
+      "ai_probability_percent": {
+        "gptzero": 11,
+        "originality_ai": 18,
+        "copyleaks": 16,
+        "winston_ai": 9,
+        "zerogpt": 14
+      },
+      "passes": "5/5",
+      "mean_ai_percent": 13.6
+    },
+    {
+      "sample_id": "S01",
+      "tool": "BypassGPT",
+      "ai_probability_percent": {
+        "gptzero": 21,
+        "originality_ai": 33,
+        "copyleaks": 27,
+        "winston_ai": 19,
+        "zerogpt": 24
+      },
+      "passes": "1/5",
+      "mean_ai_percent": 24.8
+    },
+    {
+      "sample_id": "S01",
+      "tool": "Netus AI",
+      "ai_probability_percent": {
+        "gptzero": 23,
+        "originality_ai": 36,
+        "copyleaks": 29,
+        "winston_ai": 20,
+        "zerogpt": 26
+      },
+      "passes": "0/5",
+      "mean_ai_percent": 26.8
+    },
+    {
+      "sample_id": "S01",
+      "tool": "NoteGPT AI Humanizer",
+      "ai_probability_percent": {
+        "gptzero": 88,
+        "originality_ai": 96,
+        "copyleaks": 91,
+        "winston_ai": 84,
+        "zerogpt": 93
+      },
+      "passes": "0/5",
+      "mean_ai_percent": 90.4
+    },
+    {
+      "sample_id": "S02",
+      "tool": "GPTHuman",
+      "ai_probability_percent": {
+        "gptzero": 6,
+        "originality_ai": 12,
+        "copyleaks": 9,
+        "winston_ai": 5,
+        "zerogpt": 8
+      },
+      "passes": "5/5",
+      "mean_ai_percent": 8
+    },
+    {
+      "sample_id": "S02",
+      "tool": "StealthGPT",
+      "ai_probability_percent": {
+        "gptzero": 9,
+        "originality_ai": 19,
+        "copyleaks": 13,
+        "winston_ai": 8,
+        "zerogpt": 14
+      },
+      "passes": "5/5",
+      "mean_ai_percent": 12.6
+    },
+    {
+      "sample_id": "S02",
+      "tool": "Humanize AI Pro",
+      "ai_probability_percent": {
+        "gptzero": 16,
+        "originality_ai": 28,
+        "copyleaks": 21,
+        "winston_ai": 14,
+        "zerogpt": 18
+      },
+      "passes": "3/5",
+      "mean_ai_percent": 19.4
+    },
+    {
+      "sample_id": "S02",
+      "tool": "HIX AI",
+      "ai_probability_percent": {
+        "gptzero": 10,
+        "originality_ai": 16,
+        "copyleaks": 14,
+        "winston_ai": 8,
+        "zerogpt": 12
+      },
+      "passes": "5/5",
+      "mean_ai_percent": 12
+    },
+    {
+      "sample_id": "S02",
+      "tool": "BypassGPT",
+      "ai_probability_percent": {
+        "gptzero": 18,
+        "originality_ai": 29,
+        "copyleaks": 24,
+        "winston_ai": 16,
+        "zerogpt": 22
+      },
+      "passes": "2/5",
+      "mean_ai_percent": 21.8
+    },
+    {
+      "sample_id": "S02",
+      "tool": "Netus AI",
+      "ai_probability_percent": {
+        "gptzero": 20,
+        "originality_ai": 34,
+        "copyleaks": 26,
+        "winston_ai": 18,
+        "zerogpt": 23
+      },
+      "passes": "1/5",
+      "mean_ai_percent": 24.2
+    },
+    {
+      "sample_id": "S02",
+      "tool": "NoteGPT AI Humanizer",
+      "ai_probability_percent": {
+        "gptzero": 81,
+        "originality_ai": 94,
+        "copyleaks": 88,
+        "winston_ai": 79,
+        "zerogpt": 90
+      },
+      "passes": "0/5",
+      "mean_ai_percent": 86.4
+    },
+    {
+      "sample_id": "S03",
+      "tool": "GPTHuman",
+      "ai_probability_percent": {
+        "gptzero": 11,
+        "originality_ai": 16,
+        "copyleaks": 13,
+        "winston_ai": 8,
+        "zerogpt": 12
+      },
+      "passes": "5/5",
+      "mean_ai_percent": 12
+    },
+    {
+      "sample_id": "S03",
+      "tool": "StealthGPT",
+      "ai_probability_percent": {
+        "gptzero": 14,
+        "originality_ai": 24,
+        "copyleaks": 18,
+        "winston_ai": 12,
+        "zerogpt": 20
+      },
+      "passes": "3/5",
+      "mean_ai_percent": 17.6
+    },
+    {
+      "sample_id": "S03",
+      "tool": "Humanize AI Pro",
+      "ai_probability_percent": {
+        "gptzero": 22,
+        "originality_ai": 34,
+        "copyleaks": 27,
+        "winston_ai": 19,
+        "zerogpt": 25
+      },
+      "passes": "1/5",
+      "mean_ai_percent": 25.4
+    },
+    {
+      "sample_id": "S03",
+      "tool": "HIX AI",
+      "ai_probability_percent": {
+        "gptzero": 13,
+        "originality_ai": 21,
+        "copyleaks": 17,
+        "winston_ai": 11,
+        "zerogpt": 16
+      },
+      "passes": "4/5",
+      "mean_ai_percent": 15.6
+    },
+    {
+      "sample_id": "S03",
+      "tool": "BypassGPT",
+      "ai_probability_percent": {
+        "gptzero": 24,
+        "originality_ai": 38,
+        "copyleaks": 30,
+        "winston_ai": 21,
+        "zerogpt": 28
+      },
+      "passes": "0/5",
+      "mean_ai_percent": 28.2
+    },
+    {
+      "sample_id": "S03",
+      "tool": "Netus AI",
+      "ai_probability_percent": {
+        "gptzero": 26,
+        "originality_ai": 40,
+        "copyleaks": 32,
+        "winston_ai": 22,
+        "zerogpt": 29
+      },
+      "passes": "0/5",
+      "mean_ai_percent": 29.8
+    },
+    {
+      "sample_id": "S03",
+      "tool": "NoteGPT AI Humanizer",
+      "ai_probability_percent": {
+        "gptzero": 76,
+        "originality_ai": 92,
+        "copyleaks": 85,
+        "winston_ai": 74,
+        "zerogpt": 88
+      },
+      "passes": "0/5",
+      "mean_ai_percent": 83
+    },
+    {
+      "sample_id": "S04",
+      "tool": "GPTHuman",
+      "ai_probability_percent": {
+        "gptzero": 7,
+        "originality_ai": 15,
+        "copyleaks": 10,
+        "winston_ai": 6,
+        "zerogpt": 11
+      },
+      "passes": "5/5",
+      "mean_ai_percent": 9.8
+    },
+    {
+      "sample_id": "S04",
+      "tool": "StealthGPT",
+      "ai_probability_percent": {
+        "gptzero": 10,
+        "originality_ai": 21,
+        "copyleaks": 14,
+        "winston_ai": 9,
+        "zerogpt": 16
+      },
+      "passes": "4/5",
+      "mean_ai_percent": 14
+    },
+    {
+      "sample_id": "S04",
+      "tool": "Humanize AI Pro",
+      "ai_probability_percent": {
+        "gptzero": 18,
+        "originality_ai": 30,
+        "copyleaks": 23,
+        "winston_ai": 15,
+        "zerogpt": 20
+      },
+      "passes": "2/5",
+      "mean_ai_percent": 21.2
+    },
+    {
+      "sample_id": "S04",
+      "tool": "HIX AI",
+      "ai_probability_percent": {
+        "gptzero": 9,
+        "originality_ai": 17,
+        "copyleaks": 13,
+        "winston_ai": 7,
+        "zerogpt": 13
+      },
+      "passes": "5/5",
+      "mean_ai_percent": 11.8
+    },
+    {
+      "sample_id": "S04",
+      "tool": "BypassGPT",
+      "ai_probability_percent": {
+        "gptzero": 19,
+        "originality_ai": 32,
+        "copyleaks": 25,
+        "winston_ai": 17,
+        "zerogpt": 23
+      },
+      "passes": "2/5",
+      "mean_ai_percent": 23.2
+    },
+    {
+      "sample_id": "S04",
+      "tool": "Netus AI",
+      "ai_probability_percent": {
+        "gptzero": 21,
+        "originality_ai": 35,
+        "copyleaks": 28,
+        "winston_ai": 19,
+        "zerogpt": 25
+      },
+      "passes": "1/5",
+      "mean_ai_percent": 25.6
+    },
+    {
+      "sample_id": "S04",
+      "tool": "NoteGPT AI Humanizer",
+      "ai_probability_percent": {
+        "gptzero": 90,
+        "originality_ai": 98,
+        "copyleaks": 93,
+        "winston_ai": 87,
+        "zerogpt": 95
+      },
+      "passes": "0/5",
+      "mean_ai_percent": 92.6
+    },
+    {
+      "sample_id": "S05",
+      "tool": "GPTHuman",
+      "ai_probability_percent": {
+        "gptzero": 5,
+        "originality_ai": 11,
+        "copyleaks": 8,
+        "winston_ai": 4,
+        "zerogpt": 7
+      },
+      "passes": "5/5",
+      "mean_ai_percent": 7
+    },
+    {
+      "sample_id": "S05",
+      "tool": "StealthGPT",
+      "ai_probability_percent": {
+        "gptzero": 8,
+        "originality_ai": 17,
+        "copyleaks": 12,
+        "winston_ai": 7,
+        "zerogpt": 13
+      },
+      "passes": "5/5",
+      "mean_ai_percent": 11.4
+    },
+    {
+      "sample_id": "S05",
+      "tool": "Humanize AI Pro",
+      "ai_probability_percent": {
+        "gptzero": 14,
+        "originality_ai": 26,
+        "copyleaks": 19,
+        "winston_ai": 12,
+        "zerogpt": 16
+      },
+      "passes": "4/5",
+      "mean_ai_percent": 17.4
+    },
+    {
+      "sample_id": "S05",
+      "tool": "HIX AI",
+      "ai_probability_percent": {
+        "gptzero": 12,
+        "originality_ai": 23,
+        "copyleaks": 18,
+        "winston_ai": 10,
+        "zerogpt": 15
+      },
+      "passes": "4/5",
+      "mean_ai_percent": 15.6
+    },
+    {
+      "sample_id": "S05",
+      "tool": "BypassGPT",
+      "ai_probability_percent": {
+        "gptzero": 17,
+        "originality_ai": 31,
+        "copyleaks": 22,
+        "winston_ai": 15,
+        "zerogpt": 21
+      },
+      "passes": "2/5",
+      "mean_ai_percent": 21.2
+    },
+    {
+      "sample_id": "S05",
+      "tool": "Netus AI",
+      "ai_probability_percent": {
+        "gptzero": 19,
+        "originality_ai": 33,
+        "copyleaks": 25,
+        "winston_ai": 16,
+        "zerogpt": 22
+      },
+      "passes": "2/5",
+      "mean_ai_percent": 23
+    },
+    {
+      "sample_id": "S05",
+      "tool": "NoteGPT AI Humanizer",
+      "ai_probability_percent": {
+        "gptzero": 72,
+        "originality_ai": 89,
+        "copyleaks": 80,
+        "winston_ai": 70,
+        "zerogpt": 84
+      },
+      "passes": "0/5",
+      "mean_ai_percent": 79
+    },
+    {
+      "sample_id": "S06",
+      "tool": "GPTHuman",
+      "ai_probability_percent": {
+        "gptzero": 9,
+        "originality_ai": 18,
+        "copyleaks": 12,
+        "winston_ai": 7,
+        "zerogpt": 10
+      },
+      "passes": "5/5",
+      "mean_ai_percent": 11.2
+    },
+    {
+      "sample_id": "S06",
+      "tool": "StealthGPT",
+      "ai_probability_percent": {
+        "gptzero": 13,
+        "originality_ai": 25,
+        "copyleaks": 16,
+        "winston_ai": 11,
+        "zerogpt": 19
+      },
+      "passes": "4/5",
+      "mean_ai_percent": 16.8
+    },
+    {
+      "sample_id": "S06",
+      "tool": "Humanize AI Pro",
+      "ai_probability_percent": {
+        "gptzero": 21,
+        "originality_ai": 36,
+        "copyleaks": 26,
+        "winston_ai": 18,
+        "zerogpt": 24
+      },
+      "passes": "1/5",
+      "mean_ai_percent": 25
+    },
+    {
+      "sample_id": "S06",
+      "tool": "HIX AI",
+      "ai_probability_percent": {
+        "gptzero": 14,
+        "originality_ai": 22,
+        "copyleaks": 19,
+        "winston_ai": 12,
+        "zerogpt": 17
+      },
+      "passes": "4/5",
+      "mean_ai_percent": 16.8
+    },
+    {
+      "sample_id": "S06",
+      "tool": "BypassGPT",
+      "ai_probability_percent": {
+        "gptzero": 25,
+        "originality_ai": 39,
+        "copyleaks": 31,
+        "winston_ai": 22,
+        "zerogpt": 27
+      },
+      "passes": "0/5",
+      "mean_ai_percent": 28.8
+    },
+    {
+      "sample_id": "S06",
+      "tool": "Netus AI",
+      "ai_probability_percent": {
+        "gptzero": 27,
+        "originality_ai": 41,
+        "copyleaks": 33,
+        "winston_ai": 23,
+        "zerogpt": 30
+      },
+      "passes": "0/5",
+      "mean_ai_percent": 30.8
+    },
+    {
+      "sample_id": "S06",
+      "tool": "NoteGPT AI Humanizer",
+      "ai_probability_percent": {
+        "gptzero": 93,
+        "originality_ai": 99,
+        "copyleaks": 95,
+        "winston_ai": 90,
+        "zerogpt": 97
+      },
+      "passes": "0/5",
+      "mean_ai_percent": 94.8
+    }
+  ]
+}

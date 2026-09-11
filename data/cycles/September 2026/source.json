@@ -1,6 +1,6 @@
 {
   "cycle": "September 2026",
-  "source_file": "september-2026-ai-humanizer-leaderboard.xlsx",
+  "source_file": "september-2026-ai-humanizer-leaderboard (1).xlsx",
   "source_received_date": "2026-09-11",
   "testing_period": {
     "start": "2026-09-01",
@@ -21,13 +21,23 @@
     "readability": 0.2,
     "consistency": 0.15
   },
-  "source_scope": "aggregate-only",
+  "source_scope": "aggregate leaderboard plus a representative six-text evidence slice",
+  "evidence_slice": {
+    "source_texts": 6,
+    "rewrites": 41,
+    "missing_rewrite": "S01 / GPTHuman",
+    "detector_values": 210,
+    "detector_value_status": "real test results for the six-text evidence slice"
+  },
+  "author_correction": {
+    "date": "2026-09-11",
+    "detail": "The workbook author confirmed that descriptions calling the package constructed and the evidence illustrative were mistakes. The supplied detector values are real test results."
+  },
   "missing_for_full_reproduction": [
-    "source texts",
-    "humanized outputs",
-    "individual detector verdicts",
+    "remaining 144 source texts",
+    "remaining 1,008 primary humanized outputs",
+    "full 5,250 detector records and raw API payloads",
     "scoring implementation",
-    "adjustments or penalties explaining reported overall scores"
+    "raw consistency-subset reruns"
   ]
 }
-

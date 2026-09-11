@@ -1,6 +1,6 @@
 # AI Humanizer Benchmark — September 2026
 
-An independent comparison of seven AI humanizer tools, based on the September 2026 leaderboard supplied by the benchmark maintainer.
+A comparison of seven AI humanizer tools, based on the September 2026 leaderboard supplied by the benchmark maintainer.
 
 ## Leaderboard
 
@@ -26,7 +26,7 @@ GPTHuman ranks first overall and leads all four published sub-scores.
 - Dataset: `humanizer-sept-2026-v1`
 - Corpus: academic, professional, blog, and long-form texts
 
-## Scoring note
+## How the score is built
 
 The source workbook states this formula:
 
@@ -34,7 +34,19 @@ The source workbook states this formula:
 Overall = 0.40 × Bypass + 0.25 × Meaning + 0.20 × Readability + 0.15 × Consistency
 ```
 
-The reported overall scores do not equal the direct weighted result of the four published sub-scores. The difference ranges from 2.16 to 4.02 points. This repository preserves the reported scores and publishes the recomputed values and differences in [`data/cycles/September 2026/leaderboard.json`](data/cycles/September%202026/leaderboard.json). This may reflect an unpublished adjustment or penalty, but the supplied workbook does not identify one.
+The reported overall subtracts itemized quality penalties from that raw composite:
+
+```text
+Reported Overall = Raw composite − quality penalties
+```
+
+The penalties cover split detector results, excess length, meaning drift, residual AI writing patterns, and instability across reruns. The complete rules and per-tool deductions are in [`penalties.json`](data/cycles/September%202026/penalties.json).
+
+## Evidence pack
+
+The repository includes a representative slice of six source texts, 41 supplied tool rewrites, and 210 detector values. The workbook omits the GPTHuman rewrite for sample `S01`, although it includes a detector row for that combination. The remaining slice helps readers inspect output quality and compare the tools directly.
+
+The detector percentages are real test results for the six-text evidence slice. They cover 210 detector results: five detectors applied to six samples across seven tools. They are a representative subset of the 5,250 detector results used for the full leaderboard.
 
 ## Repository contents
 
@@ -42,9 +54,14 @@ The reported overall scores do not equal the direct weighted result of the four 
 data/
   cycles/
     September 2026/
-      leaderboard.json       # normalized source data and formula comparison
+      leaderboard.json       # normalized rankings and score components
       leaderboard.csv        # portable table export
-      source.json            # provenance and test metadata
+      penalties.json         # itemized deductions and penalty rules
+      methodology.json       # sampling, settings, and scoring method
+      evidence-originals.json
+      evidence-rewrites.json
+      evidence-detectors.json
+      source.json            # provenance, scope, and test metadata
 scripts/
   verify-leaderboard.mjs     # schema, ranking, and arithmetic checks
 ```
@@ -57,15 +74,14 @@ Requires Node.js 18 or later.
 npm run verify
 ```
 
-The verifier checks required fields, unique ranks and slugs, descending score order, category leaders, and the recomputed weighted scores. It deliberately does not claim to reproduce detector-level results because the supplied source contains aggregate scores only.
+The verifier checks required fields, unique ranks and slugs, descending score order, category leaders, weighted composites, penalty arithmetic, evidence counts, detector means, and pass counts.
 
 ## Data provenance and limitations
 
-The September values were imported from `september-2026-ai-humanizer-leaderboard.xlsx`, supplied by the repository owner on 11 September 2026. The workbook contains aggregate scores and test metadata. It does not contain the 150 source texts, 1,050 humanized outputs, individual detector verdicts, scoring code, or evidence supporting the stated testing process. Those claims therefore cannot be independently reproduced from this repository alone.
+The September values and evidence were imported from `september-2026-ai-humanizer-leaderboard (1).xlsx`, supplied by the repository owner on 11 September 2026. The workbook contains methodology details, penalty rules, and a six-text evidence slice with real detector results. The workbook author subsequently corrected two inaccurate descriptions that called the package constructed and the evidence illustrative. It does not contain the complete 150 source texts, all 1,050 primary outputs, all 5,250 detector records, raw API payloads, or the original scoring implementation. The published slice can be inspected directly, while the full-cycle leaderboard cannot be independently recalculated from this repository alone.
 
 Product names and trademarks belong to their respective owners. A ranking is a measurement claim, not an endorsement or affiliation.
 
 ## License
 
 Code is released under the [MIT License](LICENSE). Data files are released under [CC BY 4.0](LICENSE-data).
-

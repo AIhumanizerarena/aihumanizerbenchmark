@@ -1,0 +1,252 @@
+{
+  "cycle": "September 2026",
+  "scope": "41 supplied rewrites covering 6 samples and 7 tools; S01 / GPTHuman is absent from the source workbook",
+  "rewrites": [
+    {
+      "sample_id": "S01",
+      "tool": "StealthGPT",
+      "text": "Transit planners keep treating heat like an amenity problem. It isn’t. Across a handful of mid-sized American cities, the tracts that bake the hardest also have the sparsest shade at the curb. Those riders wait longer, and they skew older or in poorer health. Temperature maps, stop lists, and reliability files from 2019–2024 point to a cheap move: slide a few stops under canopy that’s already there. That trims the worst waits more affordably than building shelters street by street.",
+      "length_note": "80 words (-17.5%)"
+    },
+    {
+      "sample_id": "S01",
+      "tool": "Humanize AI Pro",
+      "text": "This study says transit agencies should plan around summer heat instead of treating it as a minor comfort issue. In several mid-sized U.S. cities, the hottest neighborhoods have the fewest shaded bus stops. Riders there wait longer and are more likely to be older or dealing with health problems. The research draws on surface-temperature data, stop records, and on-time logs from 2019 to 2024. Moving a small set of stops under existing trees appears cheaper and more effective than installing new shelters everywhere.",
+      "length_note": "83 words (-14.4%)"
+    },
+    {
+      "sample_id": "S01",
+      "tool": "HIX AI",
+      "text": "It is important to note that municipal transit agencies would be well served to regard elevated summer temperatures as a genuine routing constraint rather than a secondary comfort consideration for riders. In a number of mid-sized cities in the United States, census tracts that register the highest land-surface temperatures are frequently the same tracts that offer the lowest number of shaded waiting areas. Individuals in these locations tend to experience longer average waits and are more likely to be older adults or people with medical vulnerabilities. The present analysis incorporates land-surface temperature measurements, comprehensive stop inventories, and on-time performance information covering the 2019 to 2024 period. The findings indicate that relocating a limited number of stops beneath already established tree canopy could reduce peak-wait heat exposure in a more cost-effective manner than the widespread installation of new shelters.",
+      "length_note": "138 words (+42.3%)"
+    },
+    {
+      "sample_id": "S01",
+      "tool": "BypassGPT",
+      "text": "This paper says city transit groups should see summer heat as a path issue, not a nice-to-have. In some mid-size U.S. cities, the hottest census areas also hold the smallest count of shaded bus points. Riders there wait more time on average and are more often aged or medically weak. The look uses ground-heat data, stop lists, and on-time files from 2019 to 2024. Results hint that moving a few stops under trees already present would cut top-wait heat for less money than new shelters on each block.",
+      "length_note": "88 words (-9.3%)"
+    },
+    {
+      "sample_id": "S01",
+      "tool": "Netus AI",
+      "text": "City bus agencies should fold extreme heat into route design rather than treating shade as a luxury. Hotter neighborhoods in several medium U.S. cities often have almost no covered stops, and the people standing there wait longer and include more older or medically at-risk riders. Temperature imagery, stop maps, and punctuality records from 2019–2024 show that tucking a handful of stops under trees already in place would lower peak heat exposure without paying for a shelter on every corner.",
+      "length_note": "79 words (-18.6%)"
+    },
+    {
+      "sample_id": "S01",
+      "tool": "NoteGPT AI Humanizer",
+      "text": "This paper argues that municipal transit agencies should treat summer heat as a routing constraint rather than a comfort afterthought. In several mid-sized U.S. cities, the hottest census tracts also have the fewest shaded bus stops. Riders in those tracts wait longer on average and are more likely to be older or medically vulnerable. The analysis uses land-surface temperature data, stop inventories, and on-time performance logs from 2019 to 2024. Findings suggest that moving a small number of stops under existing tree canopy would reduce peak-wait heat exposure more cheaply than installing new shelters on every block.",
+      "length_note": "97 words (+0.0%)"
+    },
+    {
+      "sample_id": "S02",
+      "tool": "GPTHuman",
+      "text": "We should fold the three regional print vendors into one national contract before November. Running parallel shops is now producing duplicate freight and sloppy color on the autumn catalog. A single vendor will not save money in Q1, but it should shrink approval time from nine days to four and give design one paper specification. Legal has noted early-termination fees on the Midwest agreement; those fees still sit below the reprint bill we took in June. Please read the comparison attached and tell procurement by Friday whether to open talks.",
+      "length_note": "90 words (-9.1%)"
+    },
+    {
+      "sample_id": "S02",
+      "tool": "StealthGPT",
+      "text": "Consolidate the three regional printers into one national deal before November. The overlap is showing up as double shipping and catalog color that will not sit still. Year-one pricing will not improve. Cycle time will: nine days down to four, and one spec sheet for paper. Midwest termination fees are real, and they are still cheaper than June’s reprint. Review the comparison. Confirm by Friday if procurement starts the conversation.",
+      "length_note": "70 words (-29.3%)"
+    },
+    {
+      "sample_id": "S02",
+      "tool": "Humanize AI Pro",
+      "text": "I recommend combining our three regional print vendors into one national contract before November. Overlapping fulfillment is creating extra freight costs and uneven color on the autumn catalog. A single vendor may not be cheaper in the first quarter, but approval time should fall from nine days to four and design would work from one set of paper specs. Legal has raised early-termination fees on the Midwest contract, which are still lower than the June reprint costs. Please review the attached comparison and confirm by Friday if procurement should begin negotiations.",
+      "length_note": "91 words (-8.1%)"
+    },
+    {
+      "sample_id": "S02",
+      "tool": "HIX AI",
+      "text": "At this time I would recommend that we proceed with consolidating our three regional print vendors into a single national contract in advance of November. Overlap in fulfillment operations is presently resulting in duplicate freight charges as well as inconsistent color matching across the autumn catalog. While a single vendor arrangement is not expected to be less expensive in the first quarter, it is expected to reduce approval cycles from nine days to four days and to provide the design team with one unified set of paper specifications. The legal team has identified early-termination fees associated with the Midwest contract; however, those fees remain lower than the reprint costs that were absorbed in June. Kindly review the attached comparison document and confirm by Friday whether procurement should initiate negotiations.",
+      "length_note": "129 words (+30.3%)"
+    },
+    {
+      "sample_id": "S02",
+      "tool": "BypassGPT",
+      "text": "I advise we join our three area print sellers into one country-wide deal before November. Overlap in sending goods now costs extra freight and uneven color on the fall book. One seller will not be cheaper in quarter one, but it will cut okay-cycles from nine days to four and give design one paper list. Legal marked end-early fees on the Midwest deal; those fees stay lower than reprint costs from June. Please see the attached compare and say by Friday if buying should open talks.",
+      "length_note": "86 words (-13.1%)"
+    },
+    {
+      "sample_id": "S02",
+      "tool": "Netus AI",
+      "text": "Merge the three regional printers into one national contract ahead of November. Shared fulfillment is billing us twice for freight and drifting color on the fall catalog. The first quarter will not get cheaper. Approvals should, dropping from nine days to four, with a single paper spec for design. Midwest exit fees exist, and they still cost less than June’s reprints. Look at the comparison and tell procurement by Friday whether to start negotiations.",
+      "length_note": "74 words (-25.3%)"
+    },
+    {
+      "sample_id": "S02",
+      "tool": "NoteGPT AI Humanizer",
+      "text": "I recommend we consolidate our three regional print vendors into a single national contract before November. Overlap in fulfillment is now costing us duplicate freight and inconsistent color matching on the autumn catalog. A single vendor will not be cheaper in the first quarter, but it will cut approval cycles from nine days to four and give design one set of paper specs. Legal has flagged early-termination fees on the Midwest contract; those fees are still lower than the reprint costs we absorbed in June. Please review the attached comparison and confirm by Friday whether procurement should open negotiations.",
+      "length_note": "99 words (+0.0%)"
+    },
+    {
+      "sample_id": "S03",
+      "tool": "GPTHuman",
+      "text": "Apartment starters usually stall for ordinary reasons, not because the method is hopeless. Most kitchens run cooler than recipe posts imply, and chlorinated tap water can keep wild yeast half-asleep. A nail-polish smell means the culture has been underfed. Keep the feeding times steady, park the jar somewhere that actually holds near 75°F, and leave the lid loose enough for gas to escape. If it looks sluggish, check food and temperature before you throw it out.",
+      "length_note": "76 words (-8.4%)"
+    },
+    {
+      "sample_id": "S03",
+      "tool": "StealthGPT",
+      "text": "Your starter is not cursed. The apartment is cold and the tap is chlorinated. That is the whole mystery for most people. Acetone smell = hunger. Feed on a clock, find a spot that really sits around 75°F, and quit cranking the lid down so the jar can breathe. Slow is usually cold or starved.",
+      "length_note": "55 words (-33.7%)"
+    },
+    {
+      "sample_id": "S03",
+      "tool": "Humanize AI Pro",
+      "text": "Most apartment sourdough starters fail for simple reasons rather than a bad recipe. Home kitchens are often cooler than food blogs suggest, and tap water with chlorine can slow the yeast you are trying to activate. A nail-polish-remover smell usually means the starter was not fed enough. Stick to a regular feeding schedule, keep the jar near 75°F, and avoid sealing the lid so tightly that gas cannot escape. A slow starter is typically cold or underfed, not beyond saving.",
+      "length_note": "80 words (-3.6%)"
+    },
+    {
+      "sample_id": "S03",
+      "tool": "HIX AI",
+      "text": "It is worth emphasizing that the majority of apartment-based sourdough starters struggle for fairly mundane reasons and not because a given recipe is inherently flawed. Residential kitchens frequently remain cooler than the environments assumed by popular food blogs, and chlorinated municipal tap water can inhibit the wild yeast that bakers are attempting to cultivate. If a culture begins to smell like nail polish remover, the most likely explanation is that it has been insufficiently fed. Practitioners should maintain a consistent feeding schedule, store the jar in a location that reliably remains near 75°F, and avoid sealing the lid so tightly that fermentation gases cannot escape. In most cases a sluggish starter is simply underfed or too cold rather than irretrievably failed.",
+      "length_note": "121 words (+45.8%)"
+    },
+    {
+      "sample_id": "S03",
+      "tool": "BypassGPT",
+      "text": "Most flat starters go bad for dull causes, not due to a hexed recipe. Kitchens stay colder than food blogs guess, and tap water with chlorine can delay the wild yeast you want to start. If the jar scents like polish remover, you likely did not feed it. Give food on a steady clock, put it where it stays near 75°F, and do not lock the lid so tight the air cannot leave. A slow starter is commonly not fed or chilly, not finished.",
+      "length_note": "84 words (+1.2%)"
+    },
+    {
+      "sample_id": "S03",
+      "tool": "Netus AI",
+      "text": "Apartment starters collapse for ordinary kitchen reasons. Rooms run colder than blog photos suggest, and city water with chlorine can stall the yeast. An acetone smell is a hunger cue. Feed on schedule, keep the jar close to 75°F, and crack the lid so gas can leave. Cold and missed feedings explain most ‘dead’ jars.",
+      "length_note": "55 words (-33.7%)"
+    },
+    {
+      "sample_id": "S03",
+      "tool": "NoteGPT AI Humanizer",
+      "text": "Most apartment starters fail for boring reasons, not because the recipe is cursed. Kitchens sit cooler than food blogs assume, and chlorinated tap water can slow the wild yeast you are trying to wake up. If your jar smells like nail polish remover, you probably starved it. Feed on a consistent schedule, keep it somewhere that actually stays near 75°F, and stop sealing the lid so tightly that gas has nowhere to go. A sluggish starter is usually underfed or cold, not doomed.",
+      "length_note": "83 words (+0.0%)"
+    },
+    {
+      "sample_id": "S04",
+      "tool": "GPTHuman",
+      "text": "The billing worker still retries failed card captures every 30 seconds. When issuers time out, those retries hit the processor in a pack and then trip our rate limit. Move to exponential backoff with jitter, stop after five attempts, and park poison messages on a dead-letter queue. Charge objects already carry idempotency keys, so double-capture is not the live problem. Thread pileup during an evening spike is. Rolling the change to 10% of traffic first will show whether queue depth actually falls.",
+      "length_note": "82 words (-12.8%)"
+    },
+    {
+      "sample_id": "S04",
+      "tool": "StealthGPT",
+      "text": "Fixed 30-second capture retries are stampeding the processor. Issuer timeouts turn into our rate-limit. Use exponential backoff plus jitter, five tries max, then dead-letter the rest. Idempotency keys are already on the charge, so duplicates are not the fire. Queue depth at night is. Ship it to 10% of traffic and watch the depth before cutting over.",
+      "length_note": "57 words (-39.4%)"
+    },
+    {
+      "sample_id": "S04",
+      "tool": "Humanize AI Pro",
+      "text": "The billing worker retries failed card captures every 30 seconds. During issuer timeouts, that pattern overwhelms the processor and triggers our rate limit. We should use exponential backoff with jitter, limit retries to five, and send remaining failures to a dead-letter queue. Idempotency keys already exist on the charge object, so duplicate charges are not the main concern. The larger issue is thread buildup during evening sales spikes. A 10% staged rollout would let us measure queue depth before switching fully.",
+      "length_note": "81 words (-13.8%)"
+    },
+    {
+      "sample_id": "S04",
+      "tool": "HIX AI",
+      "text": "At present the billing worker retries unsuccessful card captures on a fixed interval of thirty seconds. In situations involving issuer timeouts, this behavior creates a thundering-herd effect against the processor and subsequently activates our internal rate limit. A preferable approach would be to implement exponential backoff with jitter, to impose a maximum of five retry attempts, and to transfer poison messages into a dead-letter queue once that ceiling has been reached. Idempotency keys are already present on the charge object, and therefore duplicate capture is not the principal risk. The principal risk is an accumulation of worker threads during an evening sales spike. A staged rollout covering ten percent of traffic should be sufficient to evaluate queue depth prior to a complete cutover.",
+      "length_note": "123 words (+30.9%)"
+    },
+    {
+      "sample_id": "S04",
+      "tool": "BypassGPT",
+      "text": "The billing worker now tries failed card takes again on a set 30-second gap. Under bank timeouts this rushes the processor and hits our own speed cap. We ought to change to growing wait with jitter, stop tries at five, and send bad notes to a dead-letter line after try five. Same-key checks already sit on the charge item, so double takes are not the top risk. The top risk is thread stack in a night sale jump. A step roll on 10% of flow is enough to gauge line depth before a full switch.",
+      "length_note": "95 words (+1.1%)"
+    },
+    {
+      "sample_id": "S04",
+      "tool": "Netus AI",
+      "text": "Retrying captures on a flat 30-second clock stampedes the processor when issuers stall, then we rate-limit ourselves. Switch to exponential backoff with jitter, cap at five tries, and dead-letter whatever is still broken. Idempotency keys already guard against double charges. What they do not guard against is worker pileup on a busy night. Try 10% of traffic first and read queue depth before a full cutover.",
+      "length_note": "66 words (-29.8%)"
+    },
+    {
+      "sample_id": "S04",
+      "tool": "NoteGPT AI Humanizer",
+      "text": "The billing worker currently retries failed card captures on a fixed 30-second interval. Under issuer timeouts this stampedes the processor and trips our own rate limit. We should switch to exponential backoff with jitter, cap retries at five, and move poison messages to a dead-letter queue after the fifth failure. Idempotency keys already exist on the charge object, so duplicate captures are not the main risk. The main risk is thread pileup during an evening sales spike. A staged rollout on 10% of traffic is enough to measure queue depth before a full cutover.",
+      "length_note": "94 words (+0.0%)"
+    },
+    {
+      "sample_id": "S05",
+      "tool": "GPTHuman",
+      "text": "The last independent video store in town is not living on nostalgia. It lasts because the owner still writes a card for every shelf and will quarrel with you about a 1978 giallo you barely remember. Streaming is easier. It is also worse at chance. Nobody drifts into an algorithm and walks out with a scratched Korean thriller because the clerk decided you looked worn out. That kind of suggestion is inefficient on purpose. I go on Tuesdays, when the new-to-used bin turns and the coffee is only fine.",
+      "length_note": "89 words (-2.2%)"
+    },
+    {
+      "sample_id": "S05",
+      "tool": "StealthGPT",
+      "text": "Nostalgia is not what keeps the last video store open. The owner still pencils a card for each shelf and will fight you over a 1978 giallo you cannot quite name. Streaming wins on ease. It loses on accident. Algorithms do not hand you a beat-up Korean thriller because you looked wrecked. That recommendation is supposed to be inefficient. Tuesday is the day: used bin rotates, coffee is tolerable.",
+      "length_note": "69 words (-24.2%)"
+    },
+    {
+      "sample_id": "S05",
+      "tool": "Humanize AI Pro",
+      "text": "The last independent video store in town does not stay open on nostalgia alone. It stays open because the owner still writes notes for each shelf and will debate a 1978 giallo you only partly remember. Streaming is more convenient, of course. It is also worse at surprise. You do not wander into an algorithm and leave with a scratched Korean thriller because a clerk thought you looked tired. That kind of recommendation is inefficient on purpose. I visit on Tuesdays, when the new-to-used bin changes and the coffee is only decent.",
+      "length_note": "92 words (+1.1%)"
+    },
+    {
+      "sample_id": "S05",
+      "tool": "HIX AI",
+      "text": "It would be inaccurate to suggest that the final independent video store in town persists solely on the strength of nostalgia. The shop continues to operate because the owner still composes a handwritten card for every shelf and remains willing to debate the merits of a 1978 giallo that a customer only half recalls. Streaming platforms are unquestionably more convenient. They are also substantially poorer at producing accidental discovery. One does not wander into a recommendation engine and depart with a scratched Korean thriller simply because a clerk concluded that one looked tired. That style of recommendation is inefficient by design. I make a point of visiting on Tuesdays, which is when the new-to-used bin is rotated and when the coffee is, at best, merely decent.",
+      "length_note": "126 words (+38.5%)"
+    },
+    {
+      "sample_id": "S05",
+      "tool": "BypassGPT",
+      "text": "The final indie video shop in town does not live on memory only. It lives because the owner still makes a card for each shelf and will fight you on a 1978 giallo you just half recall. Streaming is simpler, sure. It is also worse at chance. No person walks into a system and exits with a marked Korean thriller for the reason the clerk felt you looked worn. That sort of tip is slow on goal. I go Tuesdays, when the new-to-used box flips and the coffee is just okay.",
+      "length_note": "91 words (+0.0%)"
+    },
+    {
+      "sample_id": "S05",
+      "tool": "Netus AI",
+      "text": "Nostalgia is not the business model. The owner still writes shelf cards and will argue about a half-remembered 1978 giallo. Streaming is simpler and worse at accidents: no algorithm hands you a scratched Korean thriller because you looked exhausted. The inefficiency is the point. Tuesdays are for the used bin and coffee that is only fine.",
+      "length_note": "56 words (-38.5%)"
+    },
+    {
+      "sample_id": "S05",
+      "tool": "NoteGPT AI Humanizer",
+      "text": "The last independent video store in town does not survive on nostalgia alone. It survives because the owner still writes a card for every shelf and will argue with you about a 1978 giallo you only half remember. Streaming is easier, obviously. It is also worse at accident. Nobody wanders into an algorithm and leaves with a scratched Korean thriller because the clerk thought you looked tired. That kind of recommendation is inefficient on purpose. I go on Tuesdays, when the new-to-used bin turns over and the coffee is only decent.",
+      "length_note": "91 words (+0.0%)"
+    },
+    {
+      "sample_id": "S06",
+      "tool": "GPTHuman",
+      "text": "Cross-sectional diet studies have a basic timing problem: they record what people eat and how healthy they are in the same window, so they cannot show that the diet came first. Memory is another problem, because participants rebuild a typical week instead of logging meals as they go. Food-frequency questionnaires and covariate controls are the usual fixes, yet leftover confounding from income, work hours, and food access tends to remain. Repeated measures over time are a better fit when the question is causal.",
+      "length_note": "83 words (+1.2%)"
+    },
+    {
+      "sample_id": "S06",
+      "tool": "StealthGPT",
+      "text": "Cross-sectional diet papers freeze intake and health in one snapshot, which cannot prove the food came before the outcome. People also invent a ‘usual week’ rather than writing meals down. FFQs and covariate tweaks are the standard patch. Income, shifts, and access still leak through. If you care about cause, collect diet more than once.",
+      "length_note": "55 words (-32.9%)"
+    },
+    {
+      "sample_id": "S06",
+      "tool": "Humanize AI Pro",
+      "text": "A major limit of cross-sectional diet research is that eating habits and health are measured at the same time, so the study cannot show which came first. Recall bias is also common, since people reconstruct a typical week instead of recording meals in real time. Food-frequency questionnaires and statistical adjustment are often used in response, but leftover confounding from income, work hours, and food access usually remains. Studies that follow people over time and measure diet more than once are better for causal questions.",
+      "length_note": "84 words (+2.4%)"
+    },
+    {
+      "sample_id": "S06",
+      "tool": "HIX AI",
+      "text": "One of the central limitations of cross-sectional dietary research is that such studies observe intake and health status contemporaneously, and therefore cannot determine whether a given eating pattern preceded the health outcome of interest. Recall bias presents an additional concern, as participants are typically asked to reconstruct a representative week rather than to record consumption as it occurs. Investigators commonly attempt to address these issues through food-frequency questionnaires and covariate adjustment; nevertheless, residual confounding associated with income, working hours, and differential food access ordinarily persists. Longitudinal designs that incorporate repeated dietary measurement are more appropriate when the research question concerns causation.",
+      "length_note": "101 words (+23.2%)"
+    },
+    {
+      "sample_id": "S06",
+      "tool": "BypassGPT",
+      "text": "A main limit of cross-section diet work is that they take intake and health at one time, so they cannot show if the eating way came before the result. Memory lean is also usual because people rebuild a normal week and do not log meals as they occur. Staff often reply with food-frequency forms and extra-factor edits, but leftover mix-up from pay, job hours, and food reach still stays. Long-time plans with repeated diet checks fit cause questions better.",
+      "length_note": "79 words (-3.7%)"
+    },
+    {
+      "sample_id": "S06",
+      "tool": "Netus AI",
+      "text": "When diet and health are photographed together, you cannot tell which arrived first. People also reconstruct a typical week instead of logging meals, which adds recall error. FFQs and covariate adjustment help only so far; income, hours, and access still confound the picture. Causal claims need repeated diet measures over time.",
+      "length_note": "51 words (-37.8%)"
+    },
+    {
+      "sample_id": "S06",
+      "tool": "NoteGPT AI Humanizer",
+      "text": "A key limitation of cross-sectional diet studies is that they capture intake and health status at the same moment, so they cannot establish whether the eating pattern preceded the outcome. Recall bias is also common because participants reconstruct a typical week rather than recording meals as they happen. Researchers often respond with food-frequency questionnaires and covariate adjustment, but residual confounding from income, work hours, and food access usually remains. Longitudinal designs with repeated dietary measures are better suited to questions of cause.",
+      "length_note": "82 words (+0.0%)"
+    }
+  ]
+}
