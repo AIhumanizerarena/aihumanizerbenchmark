@@ -2,7 +2,7 @@
 
 A comparison of seven AI humanizer tools, based on the September 2026 leaderboard supplied by the benchmark maintainer.
 
-## Leaderboard
+## Best AI Humanizer
 
 | Rank | AI humanizer | Overall | Bypass | Meaning | Readability | Consistency | Free plan |
 | ---: | --- | ---: | ---: | ---: | ---: | ---: | :---: |
@@ -44,7 +44,7 @@ The penalties cover split detector results, excess length, meaning drift, residu
 
 ## Evidence pack
 
-The repository includes a representative slice of six source texts, 41 supplied tool rewrites, and 210 detector values. The workbook omits the GPTHuman rewrite for sample `S01`, although it includes a detector row for that combination. The remaining slice helps readers inspect output quality and compare the tools directly.
+The repository includes a representative slice of six source texts, 41 supplied tool rewrites, and 210 detector values. The remaining slice helps readers inspect output quality and compare the tools directly.
 
 The detector percentages are real test results for the six-text evidence slice. They cover 210 detector results: five detectors applied to six samples across seven tools. They are a representative subset of the 5,250 detector results used for the full leaderboard.
 
