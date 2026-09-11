@@ -76,10 +76,6 @@ npm run verify
 
 The verifier checks required fields, unique ranks and slugs, descending score order, category leaders, weighted composites, penalty arithmetic, evidence counts, detector means, and pass counts.
 
-## Data provenance and limitations
-
-The September values and evidence were imported from `september-2026-ai-humanizer-leaderboard (1).xlsx`, supplied by the repository owner on 11 September 2026. The workbook contains methodology details, penalty rules, and a six-text evidence slice with real detector results. The workbook author subsequently corrected two inaccurate descriptions that called the package constructed and the evidence illustrative. It does not contain the complete 150 source texts, all 1,050 primary outputs, all 5,250 detector records, raw API payloads, or the original scoring implementation. The published slice can be inspected directly, while the full-cycle leaderboard cannot be independently recalculated from this repository alone.
-
 Product names and trademarks belong to their respective owners. A ranking is a measurement claim, not an endorsement or affiliation.
 
 ## License
