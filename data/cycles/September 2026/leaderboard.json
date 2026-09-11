@@ -1,0 +1,84 @@
+{
+  "cycle": "September 2026",
+  "methodology_version": "2.1.0",
+  "score_scale": 100,
+  "formula": {
+    "bypass": 0.4,
+    "meaning": 0.25,
+    "readability": 0.2,
+    "consistency": 0.15
+  },
+  "formula_status": "reported overall scores differ from direct recomputation",
+  "leaders": {
+    "overall": "gpthuman",
+    "bypass": "gpthuman",
+    "meaning": "gpthuman",
+    "readability": "gpthuman",
+    "consistency": "gpthuman"
+  },
+  "humanizers": [
+    {
+      "rank": 1,
+      "slug": "gpthuman",
+      "name": "GPTHuman",
+      "website": "https://gpthuman.ai",
+      "logo": "https://gpthuman.ai/favicon.ico",
+      "free_plan": true,
+      "scores": {"overall_reported": 88.28, "bypass": 92.6, "meaning": 91.4, "readability": 89.7, "consistency": 90.3, "overall_recomputed": 91.375, "reported_delta": -3.095}
+    },
+    {
+      "rank": 2,
+      "slug": "stealthgpt",
+      "name": "StealthGPT",
+      "website": "https://www.stealthgpt.ai",
+      "logo": "https://www.stealthgpt.ai/favicon.ico",
+      "free_plan": true,
+      "scores": {"overall_reported": 81.14, "bypass": 86.2, "meaning": 78.9, "readability": 84.1, "consistency": 82.6, "overall_recomputed": 83.415, "reported_delta": -2.275}
+    },
+    {
+      "rank": 3,
+      "slug": "humanize-ai-pro",
+      "name": "Humanize AI Pro",
+      "website": "https://www.humanizeai.pro",
+      "logo": "https://www.humanizeai.pro/favicon.ico",
+      "free_plan": true,
+      "scores": {"overall_reported": 79.52, "bypass": 80.4, "meaning": 82.1, "readability": 83.6, "consistency": 81.8, "overall_recomputed": 81.675, "reported_delta": -2.155}
+    },
+    {
+      "rank": 4,
+      "slug": "hix-ai",
+      "name": "HIX AI",
+      "website": "https://hix.ai",
+      "logo": "https://hix.ai/favicon.ico",
+      "free_plan": true,
+      "scores": {"overall_reported": 76.83, "bypass": 84.7, "meaning": 79.6, "readability": 72.4, "consistency": 77.1, "overall_recomputed": 79.825, "reported_delta": -2.995}
+    },
+    {
+      "rank": 5,
+      "slug": "bypassgpt",
+      "name": "BypassGPT",
+      "website": "https://www.bypassgpt.ai",
+      "logo": "https://www.bypassgpt.ai/favicon.ico",
+      "free_plan": true,
+      "scores": {"overall_reported": 73.41, "bypass": 78.5, "meaning": 76.2, "readability": 75.8, "consistency": 74.3, "overall_recomputed": 76.755, "reported_delta": -3.345}
+    },
+    {
+      "rank": 6,
+      "slug": "netus-ai",
+      "name": "Netus AI",
+      "website": "https://netus.ai",
+      "logo": "https://netus.ai/favicon.ico",
+      "free_plan": true,
+      "scores": {"overall_reported": 70.18, "bypass": 75.3, "meaning": 74.8, "readability": 73.2, "consistency": 71.6, "overall_recomputed": 74.2, "reported_delta": -4.02}
+    },
+    {
+      "rank": 7,
+      "slug": "notegpt-ai-humanizer",
+      "name": "NoteGPT AI Humanizer",
+      "website": "https://notegpt.io/ai-humanizer",
+      "logo": "https://notegpt.io/favicon.ico",
+      "free_plan": true,
+      "scores": {"overall_reported": 51.27, "bypass": 18.4, "meaning": 81.2, "readability": 86.5, "consistency": 62.9, "overall_recomputed": 54.395, "reported_delta": -3.125}
+    }
+  ]
+}

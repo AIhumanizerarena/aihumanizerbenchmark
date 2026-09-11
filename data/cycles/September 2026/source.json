@@ -1,0 +1,33 @@
+{
+  "cycle": "September 2026",
+  "source_file": "september-2026-ai-humanizer-leaderboard.xlsx",
+  "source_received_date": "2026-09-11",
+  "testing_period": {
+    "start": "2026-09-01",
+    "end": "2026-09-08"
+  },
+  "methodology_version": "2.1.0",
+  "dataset_version": "humanizer-sept-2026-v1",
+  "corpus": ["academic", "professional", "blog", "long-form"],
+  "samples_per_tool": 150,
+  "tools_tested": 7,
+  "humanized_outputs_total": 1050,
+  "detectors": ["GPTZero", "Originality.ai", "Copyleaks", "Winston AI", "ZeroGPT"],
+  "detector_runs_per_tool": 750,
+  "detector_runs_total": 5250,
+  "published_formula": {
+    "bypass": 0.4,
+    "meaning": 0.25,
+    "readability": 0.2,
+    "consistency": 0.15
+  },
+  "source_scope": "aggregate-only",
+  "missing_for_full_reproduction": [
+    "source texts",
+    "humanized outputs",
+    "individual detector verdicts",
+    "scoring implementation",
+    "adjustments or penalties explaining reported overall scores"
+  ]
+}
+
