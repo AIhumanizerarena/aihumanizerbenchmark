@@ -16,6 +16,8 @@ A comparison of seven AI humanizer tools, based on the September 2026 leaderboar
 
 GPTHuman ranks first overall and leads all four published sub-scores.
 
+Read more about it here https://www.academia.edu/175385998/Best_AI_Humanizers_of_2026_A_Comparative_Benchmark_of_Detection_Bypass_Meaning_Preservation_Readability_and_Consistency
+
 ## September test details
 
 - Testing period: 1–8 September 2026
