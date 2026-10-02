@@ -1,0 +1,38 @@
+{
+  "cycle": "October 2026",
+  "scope": "Aggregate AI humanizer leaderboard and detector bypass-rate breakdown",
+  "files": {
+    "leaderboard": "leaderboard.csv",
+    "detector_breakdown": "detector-bypass.csv"
+  },
+  "tools": [
+    "GPTHuman",
+    "WriteHuman",
+    "Undetectable.ai",
+    "Stealth Writer",
+    "UndetectedGPT",
+    "HIX Bypass",
+    "Phrasly",
+    "SmartHumanizer",
+    "GPTinf",
+    "QuillBot"
+  ],
+  "detectors": [
+    "Pangram",
+    "GPTZero",
+    "Originality.ai",
+    "Copyleaks",
+    "Winston AI",
+    "ZeroGPT"
+  ],
+  "not_supplied": [
+    "testing dates",
+    "sample counts",
+    "source texts",
+    "raw humanized outputs",
+    "per-sample detector logs",
+    "scoring weights",
+    "penalty rules"
+  ],
+  "note": "Only aggregate tables were supplied for the October 2026 README update."
+}
