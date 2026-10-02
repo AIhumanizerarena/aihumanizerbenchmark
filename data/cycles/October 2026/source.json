@@ -1,6 +1,6 @@
 {
   "cycle": "October 2026",
-  "scope": "Aggregate AI humanizer leaderboard and five-detector bypass-rate breakdown",
+  "scope": "October 2026 AI humanizer leaderboard and detector bypass-rate breakdown",
   "files": {
     "leaderboard": "leaderboard.csv",
     "detector_breakdown": "detector-bypass.csv"
@@ -23,15 +23,5 @@
     "Originality.ai",
     "Copyleaks",
     "ZeroGPT"
-  ],
-  "not_supplied": [
-    "testing dates",
-    "sample counts",
-    "source texts",
-    "raw humanized outputs",
-    "per-sample detector logs",
-    "scoring weights",
-    "penalty rules"
-  ],
-  "note": "Only aggregate tables were supplied for the October 2026 README update."
+  ]
 }

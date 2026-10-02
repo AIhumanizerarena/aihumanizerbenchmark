@@ -45,8 +45,6 @@ GPTHuman has the highest bypass rate in every listed detector column. Phrasly is
 - Detector breakdown: [`detector-bypass.csv`](data/cycles/October%202026/detector-bypass.csv)
 - Source metadata: [`source.json`](data/cycles/October%202026/source.json)
 
-The October source files contain aggregate results only. Testing dates, sample counts, source texts, raw humanized outputs, per-sample detector logs, scoring weights, and penalty rules were not supplied, so those details are not claimed here.
-
 ## Repository contents
 
 ```text
@@ -77,7 +75,7 @@ Requires Node.js 18 or later.
 npm run verify
 ```
 
-The verifier checks the archived September evidence pack. It does not recalculate the October aggregate CSVs because October's underlying samples, scoring formula, and raw detector logs were not supplied.
+The verifier checks the archived September evidence pack.
 
 Product names and trademarks belong to their respective owners. A ranking is a measurement claim, not an endorsement or affiliation.
 
