@@ -1,6 +1,6 @@
 {
   "cycle": "October 2026",
-  "scope": "Aggregate AI humanizer leaderboard and detector bypass-rate breakdown",
+  "scope": "Aggregate AI humanizer leaderboard and five-detector bypass-rate breakdown",
   "files": {
     "leaderboard": "leaderboard.csv",
     "detector_breakdown": "detector-bypass.csv"
@@ -22,7 +22,6 @@
     "GPTZero",
     "Originality.ai",
     "Copyleaks",
-    "Winston AI",
     "ZeroGPT"
   ],
   "not_supplied": [
