@@ -1,0 +1,27 @@
+{
+  "cycle": "November 2026",
+  "scope": "November 2026 AI humanizer leaderboard and detector bypass-rate breakdown",
+  "files": {
+    "leaderboard": "leaderboard.csv",
+    "detector_breakdown": "detector-bypass.csv"
+  },
+  "tools": [
+    "GPTHuman",
+    "WriteHuman",
+    "Undetectable.ai",
+    "Stealth Writer",
+    "UndetectedGPT",
+    "HIX Bypass",
+    "Phrasly",
+    "SmartHumanizer",
+    "GPTinf",
+    "QuillBot"
+  ],
+  "detectors": [
+    "Pangram",
+    "GPTZero",
+    "Originality.ai",
+    "Copyleaks",
+    "ZeroGPT"
+  ]
+}
